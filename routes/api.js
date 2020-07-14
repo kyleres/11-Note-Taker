@@ -30,8 +30,6 @@ app.delete("/api/notes/:id", function(req, res) {
     let filteredNotes = notes.filter(note => note.id != noteId);
 
     fs.writeFileSync(notesPath, JSON.stringify(filteredNotes));
-
-    return res.json(filteredNotes);
 });
 
 module.exports = app;
