@@ -27,9 +27,13 @@ app.post("/api/notes", function(req, res) {
 app.delete("/api/notes/:id", function(req, res) {
     let noteId = parseInt(req.params.id);
 
-    let filteredNotes = notes.filter(note => note.id != noteId);
+    for (i = 0; i < notes.length; i++) {
+        if (notes[i].id == noteId) {
+            notes.splice(i, 1);
+        };
+    };
 
-    fs.writeFileSync(notesPath, JSON.stringify(filteredNotes));
+    fs.writeFileSync(notesPath, JSON.stringify(notes));
 });
 
 module.exports = app;
