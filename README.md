@@ -1,5 +1,5 @@
 
-# 11-Note_Taker
+# 11 [Note Taker](https://homework-11-notes.herokuapp.com/)
 ![GitHub forks](https://img.shields.io/github/forks/kyleres/11-Note_Taker?style=social)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kyleres/11-Note_Taker)
 
@@ -16,7 +16,7 @@ For this homework assignment, we were tasked with completing a note-taker app th
 - [Questions](#questions)
 
 ## Installation
-Live link [here](https://homework-17-notes.herokuapp.com/).
+Live link [here](https://homework-11-notes.herokuapp.com/).
 
 ## Usage
 The app's UI is designed to be self-explanatory. Explore the app to see what it does!
